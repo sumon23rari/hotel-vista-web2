@@ -98,6 +98,10 @@ const LogIn = () => {
                   className='w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-rose-500 bg-gray-200 text-gray-900'
                 />
               </div>
+              <p className='text-sm'>
+              <span className='text-center block'> demo UserName:alihyder@gmail.com</span>
+              <span className='text-center'> demo Password:Asdfgh</span>
+            </p>
             </div>
   
             <div>
@@ -120,16 +124,13 @@ const LogIn = () => {
           </div>
           <div className='flex items-center pt-4 space-x-1'>
             <div className='flex-1 h-px sm:w-16 dark:bg-gray-700'></div>
-<div>
+
   
-<p className='text-bold'>
-              <span className='text-center block'> demo UserName:alihyder@gmail.com</span>
-              <span className='text-center'> demo Password:Asdfgh</span>
-            </p>
+
             <p className='px-3 text-sm dark:text-gray-400'>
               Login with social accounts
             </p>
-</div>
+
             <div className='flex-1 h-px sm:w-16 dark:bg-gray-700'></div>
           </div>
   
